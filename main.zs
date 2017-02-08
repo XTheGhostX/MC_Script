@@ -155,7 +155,7 @@ recipes.remove(<draconicevolution:dislocator>);
 
 //############################################################
 //burn time
-furnace.setFuel(<extrautils2:Ingredients:4>, 3200);
+furnace.setFuel(<extrautils2:ingredients:4>, 3200);
 //############################################################
 //oc
 recipes.remove(<openprinter:filecabinet>);
@@ -185,7 +185,7 @@ recipes.addShaped(<ic2:advanced_solar_panels_te_machines:4>,
 recipes.remove(<ic2:te:1>);
 recipes.addShaped(<ic2:te:1>,
     [[<ic2:iridium_reflector>,TNT,<ic2:iridium_reflector>],
-    [<extrautils2:Ingredients:4>, <ic2:lapotron_crystal:*> ,<extrautils2:Ingredients:4>],
+    [<extrautils2:ingredients:4>, <ic2:lapotron_crystal:*> ,<extrautils2:ingredients:4>],
     [<ic2:iridium_reflector>,<ic2:advanced_solar_panels_te_machines:3>,<ic2:iridium_reflector>]]);
 	
 recipes.remove(<ic2:te:2>);
