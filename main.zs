@@ -42,7 +42,7 @@ var ClayS = <minecraft:stained_hardened_clay:*>;
 var ClayH = <minecraft:hardened_clay:*>;
 var Diamond = <minecraft:diamond>;
 var TNT = <minecraft:tnt>;
-
+var Emerald = <minecraft:emerald>;
 
 
 
@@ -193,6 +193,13 @@ recipes.addShaped(<ic2:te:2>,
     [[<advanced_solar_panels:crafting:9>,<ic2:advanced_solar_panels_te_machines>,<advanced_solar_panels:crafting:9>],
     [<gravisuite:crafting:2>, <advanced_solar_panels:crafting:13> ,<gravisuite:crafting:2>],
     [<advanced_solar_panels:crafting:9>,<draconicevolution:wyvern_core>,<advanced_solar_panels:crafting:9>]]);
+	
+recipes.addShaped(<projectred-core:resource_item:201>,
+    [[null,<ore:dustElectrotine>,null],
+    [<ore:dustElectrotine>, Emerald ,<ore:dustElectrotine>],
+    [null,<ore:dustElectrotine>,null]]);
+	
+
 	
 
 
