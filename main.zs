@@ -120,19 +120,10 @@ recipes.addShaped(<cyberware:neuropozyne> * 64,
 	
 //############################################################
 //draconic 
-recipes.addShaped(<draconicevolution:draconium_ore>*4,
+recipes.addShaped(<draconicevolution:draconium_ore>*8,
     [[<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>],
     [Stone, <stevescarts:ModuleComponents:46>, Stone],
     [<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>]]);
-	
-	
-recipes.addShaped(<draconicevolution:draconium_ore>*4,
-    [[<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>],
-    [Stone, <stevescarts:ModuleComponents:46>, Stone],
-    [<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>]]);
-	
-
-
 
 //############################################################	
 //mining changes
