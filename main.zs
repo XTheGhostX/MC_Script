@@ -201,6 +201,13 @@ recipes.addShapeless(<toughasnails:freeze_rod>, [<thermalfoundation:material:204
 recipes.addShapeless(<thermalfoundation:material:2048>, [<toughasnails:freeze_rod>]);
 recipes.addShapeless(<thermalfoundation:material:2048>, [<thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>]);
 
+//#############################################################################
+//sfm block items 
+recipes.remove(<stevesfactorymanager:BlockCableBreakerName>);
+
+
+
+
 
 
 
