@@ -189,12 +189,20 @@ recipes.addShaped(<projectred-core:resource_item:201>,
     [[null,<ore:dustElectrotine>,null],
     [<ore:dustElectrotine>, Emerald ,<ore:dustElectrotine>],
     [null,<ore:dustElectrotine>,null]]);
-	
+//#########################################################################	
+//toughasnails
+recipes.remove(<toughasnails:jelled_slime>);
+recipes.addShaped(<toughasnails:jelled_slime>,
+    [[<toughasnails:ice_cube>,<toughasnails:ice_cube>,<toughasnails:ice_cube>],
+    [<toughasnails:ice_cube>, <ore:slimeball> ,<toughasnails:ice_cube>],
+    [<toughasnails:ice_cube>,<toughasnails:ice_cube>,<toughasnails:ice_cube>]]);	
 
-	
+recipes.addShapeless(<toughasnails:freeze_rod>, [<thermalfoundation:material:2048>]);
+recipes.addShapeless(<thermalfoundation:material:2048>, [<toughasnails:freeze_rod>]);
+recipes.addShapeless(<thermalfoundation:material:2048>, [<thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>, <thermalfoundation:material:2049>]);
 
 
-	
+
 
 
 	
