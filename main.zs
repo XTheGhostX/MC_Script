@@ -204,12 +204,11 @@ recipes.addShapeless(<thermalfoundation:material:2048>, [<thermalfoundation:mate
 //#############################################################################
 //sfm block items 
 recipes.remove(<stevesfactorymanager:BlockCableBreakerName>);
-
-
-
-
-
-
+recipes.remove(<stevesfactorymanager:BlockCableIntakeName:*>);
+//#############################################################################
+//coal dup fix 
+furnace.remove(<*>, <actuallyadditions:itemDust:6>);
+furnace.setFuel(<bloodmagic:ItemComponent:21>, 0);
 
 
 	
