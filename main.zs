@@ -43,6 +43,8 @@ var ClayH = <minecraft:hardened_clay:*>;
 var Diamond = <minecraft:diamond>;
 var TNT = <minecraft:tnt>;
 var Emerald = <minecraft:emerald>;
+var Glow = <minecraft:glowstone_dust>;
+
 
 
 
@@ -124,7 +126,18 @@ recipes.addShaped(<draconicevolution:draconium_ore>*8,
     [[<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>],
     [Stone, <stevescarts:ModuleComponents:46>, Stone],
     [<deepresonance:dense_obsidian>, Stone, <deepresonance:dense_obsidian>]]);
-
+	
+recipes.addShaped(<draconicevolution:draconium_ore:1>*10,
+    [[<deepresonance:dense_obsidian>, <deepresonance:poisoned_dirt>, <deepresonance:dense_obsidian>],
+    [<deepresonance:poisoned_dirt>, <stevescarts:ModuleComponents:46>, <deepresonance:poisoned_dirt>],
+    [<deepresonance:dense_obsidian>, <deepresonance:poisoned_dirt>, <deepresonance:dense_obsidian>]]);
+	
+recipes.remove(<stevescarts:ModuleComponents:46>);
+recipes.addShaped(<stevescarts:ModuleComponents:46>*4,
+    [[Glow, <rftools:infused_diamond>, Glow],
+    [<stevescarts:ModuleComponents:45>, Glow, <stevescarts:ModuleComponents:45>],
+    [<stevescarts:ModuleComponents:21>, <stevescarts:ModuleComponents:45>, <stevescarts:ModuleComponents:21>]]);
+	
 //############################################################	
 //mining changes
 recipes.remove(<actuallyadditions:blockMiner>);
