@@ -21,7 +21,6 @@ var CopperB = <ore:blockCopper>;
 
 var Tin = <ore:IngotTin>;
 
-
 var RedStone = <minecraft:redstone>;
 var RedStoneB = <minecraft:redstone_block>;
 
