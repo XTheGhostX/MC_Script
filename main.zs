@@ -43,9 +43,8 @@ var Diamond = <minecraft:diamond>;
 var TNT = <minecraft:tnt>;
 var Emerald = <minecraft:emerald>;
 var Glow = <minecraft:glowstone_dust>;
-
-
-
+var LapisB = <minecraft:lapis_block>;
+var CircuitB = <ore:circuitBasic>;
 
 //################################################
 //health changes 
@@ -235,4 +234,22 @@ recipes.remove(<immersiveengineering:metalDevice1:11>);
 recipes.remove(<openmodularturrets:teleporter_turret>);
 recipes.remove(<openmodularturrets:relativistic_turret>);	
 recipes.remove(<randomthings:playerInterface>);	
+recipes.remove(<actuallyadditions:blockBreaker>);	
+recipes.removeShaped(<actuallyadditions:blockFluidCollector>);
+recipes.removeShaped(<openmodularturrets:addon_meta:1>);
 
+recipes.addShaped(<actuallyadditions:blockFluidCollector>,
+    [[null,<actuallyadditions:itemCrystal:3>,null],
+    [<minecraft:bucket>, <randomthings:blockBreaker> ,<minecraft:bucket>],
+    [null,null,null]]);
+	
+recipes.remove(<air_support:utility_crate_drop_remote>);
+recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
+    [[RedStoneB,LapisB,RedStoneB],
+    [null, <air_support:circuit_board> ,null],
+    [<ore:gearGold>,CircuitB,<ore:gearGold>]]);
+
+
+
+
+	
