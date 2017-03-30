@@ -189,7 +189,7 @@ recipes.remove(<ic2:te:1>);
 recipes.addShaped(<ic2:te:1>,
     [[<ic2:iridium_reflector>,TNT,<ic2:iridium_reflector>],
     [<extrautils2:ingredients:4>, <ic2:lapotron_crystal:*> ,<extrautils2:ingredients:4>],
-    [<ic2:iridium_reflector>,<ic2:advanced_solar_panels_te_machines:3>,<ic2:iridium_reflector>]]);
+    [<ic2:iridium_reflector>,TNT,<ic2:iridium_reflector>]]);
 	
 recipes.remove(<ic2:te:2>);
 recipes.addShaped(<ic2:te:2>,
@@ -197,10 +197,6 @@ recipes.addShaped(<ic2:te:2>,
     [<gravisuite:crafting:2>, <advanced_solar_panels:crafting:13> ,<gravisuite:crafting:2>],
     [<advanced_solar_panels:crafting:9>,<draconicevolution:wyvern_core>,<advanced_solar_panels:crafting:9>]]);
 	
-recipes.addShaped(<projectred-core:resource_item:201>,
-    [[null,<ore:dustElectrotine>,null],
-    [<ore:dustElectrotine>, Emerald ,<ore:dustElectrotine>],
-    [null,<ore:dustElectrotine>,null]]);
 //#########################################################################	
 //toughasnails
 recipes.remove(<toughasnails:jelled_slime>);
@@ -221,6 +217,22 @@ recipes.remove(<stevesfactorymanager:BlockCableIntakeName:*>);
 //coal dup fix 
 furnace.remove(<*>, <actuallyadditions:itemDust:6>);
 furnace.setFuel(<bloodmagic:ItemComponent:21>, 0);
-
-
+//#############################################################################
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.addShaped(<extrautils2:teleporter:1>,
+    [[<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>],
+    [<extrautils2:compressedcobblestone:3>, <extrautils2:opinium:2> ,<extrautils2:compressedcobblestone:3>],
+    [<extrautils2:compressedcobblestone:2>,<extrautils2:compressedcobblestone:3>,<extrautils2:compressedcobblestone:2>]]);
 	
+recipes.remove(<simplevoidworld:portal>);
+recipes.addShaped(<simplevoidworld:portal>,
+    [[<chisel:voidstone>,<chisel:voidstone>,<chisel:voidstone>],
+    [<chisel:voidstone>, <extrautils2:teleporter:1> ,<chisel:voidstone>],
+    [<chisel:voidstone>,<chisel:voidstone>,<chisel:voidstone>]]);
+	
+recipes.remove(<immersiveengineering:metalDevice1:10>);
+recipes.remove(<immersiveengineering:metalDevice1:11>);
+recipes.remove(<openmodularturrets:teleporter_turret>);
+recipes.remove(<openmodularturrets:relativistic_turret>);	
+recipes.remove(<randomthings:playerInterface>);	
+
