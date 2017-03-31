@@ -247,7 +247,7 @@ recipes.remove(<air_support:utility_crate_drop_remote>);
 recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
     [[RedStoneB,LapisB,RedStoneB],
     [null, <air_support:circuit_board> ,null],
-    [<ore:gearGold>,CircuitB,<ore:gearGold>]]);
+    [<ore:gearGold>,<opencomputers:material:17>,<ore:gearGold>]]);
 
 recipes.remove(<animalium:bear_claw_paxel>);
 recipes.addShaped(<animalium:bear_claw_paxel:800>,
