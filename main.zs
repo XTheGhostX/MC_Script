@@ -249,7 +249,9 @@ recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
     [null, <air_support:circuit_board> ,null],
     [<ore:gearGold>,CircuitB,<ore:gearGold>]]);
 
-
-
-
+recipes.remove(<animalium:bear_claw_paxel>);
+recipes.addShaped(<animalium:bear_claw_paxel:800>,
+    [[<animalium:bear_claw>,<animalium:bear_claw>,<animalium:bear_claw>],
+    [<animalium:bear_claw>, <railcraft:tool_crowbar_steel> ,<roughtweaks:plaster>],
+    [<animalium:bear_claw>,<railcraft:tool_crowbar_steel>,null]]);
 	
