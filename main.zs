@@ -237,6 +237,11 @@ recipes.remove(<randomthings:playerInterface>);
 recipes.remove(<actuallyadditions:blockBreaker>);	
 recipes.removeShaped(<actuallyadditions:blockFluidCollector>);
 recipes.removeShaped(<openmodularturrets:addon_meta:1>);
+recipes.remove(<extrautils2:bagofholding>);
+
+recipes.remove(<actuallyadditions:itemBag>);
+recipes.remove(<actuallyadditions:itemVoidBag>);
+recipes.addShapeless(<actuallyadditions:itemVoidBag> , [<minecraft:ender_pearl>,<chiselsandbits:bit_bag>,<minecraft:obsidian>,<minecraft:obsidian>]);
 
 recipes.addShaped(<actuallyadditions:blockFluidCollector>,
     [[null,<actuallyadditions:itemCrystal:3>,null],
