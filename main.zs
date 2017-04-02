@@ -236,6 +236,7 @@ recipes.remove(<openmodularturrets:relativistic_turret>);
 recipes.remove(<randomthings:playerInterface>);		
 recipes.removeShaped(<actuallyadditions:blockFluidCollector>);
 recipes.removeShaped(<openmodularturrets:addon_meta:1>);
+<actuallyadditions:blockBreaker>.addTooltip(format.red("Do not rapidly use or in mass amounts LAG ISSUES!"));	
 recipes.remove(<extrautils2:bagofholding>);
 
 recipes.remove(<actuallyadditions:itemBag>);
