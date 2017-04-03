@@ -234,9 +234,9 @@ recipes.remove(<immersiveengineering:metalDevice1:11>);
 recipes.remove(<openmodularturrets:teleporter_turret>);
 recipes.remove(<openmodularturrets:relativistic_turret>);	
 recipes.remove(<randomthings:playerInterface>);		
+recipes.remove(<actuallyadditions:blockBreaker>);	
 recipes.removeShaped(<actuallyadditions:blockFluidCollector>);
 recipes.removeShaped(<openmodularturrets:addon_meta:1>);
-<actuallyadditions:blockBreaker>.addTooltip(format.red("Do not rapidly use or in mass amounts LAG ISSUES!"));	
 recipes.remove(<extrautils2:bagofholding>);
 
 recipes.remove(<actuallyadditions:itemBag>);
@@ -259,4 +259,16 @@ recipes.addShaped(<animalium:bear_claw_paxel:800>,
     [[<animalium:bear_claw>,<animalium:bear_claw>,<animalium:bear_claw>],
     [<animalium:bear_claw>, <railcraft:tool_crowbar_steel> ,<roughtweaks:plaster>],
     [<animalium:bear_claw>,<railcraft:tool_crowbar_steel>,null]]);
+	
+//#############################################################################################	
+//ie fix
+recipes.addShaped(<immersiveengineering:treatedWood>,
+    [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+    [<ore:plankWood>, <railcraft:fluid_bucket_creosote> ,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+	
+recipes.addShaped(<immersiveengineering:treatedWood>,
+    [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+    [<ore:plankWood>, <railcraft:fluid_bottle_creosote> ,<ore:plankWood>],
+    [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 	
