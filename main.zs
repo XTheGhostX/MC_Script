@@ -29,6 +29,9 @@ var Steel = <ore:ingotSteel>;
 var SteelN = <ore:nuggetSteel>;
 var SteelB = <ore:blockSteel>;
 
+var Emerald = <minecraft:emerald>;
+var Diamond = <minecraft:diamond>;
+
 var Stone = <ore:stone>;
 var Enderium = <ore:ingotEnderium>;
 var NetherStar =<minecraft:nether_star>;
@@ -39,13 +42,10 @@ var Leather = <minecraft:leather>;
 var Wool = <minecraft:wool:*>;
 var ClayS = <minecraft:stained_hardened_clay:*>;
 var ClayH = <minecraft:hardened_clay:*>;
-var Diamond = <minecraft:diamond>;
 var TNT = <minecraft:tnt>;
-var Emerald = <minecraft:emerald>;
 var Glow = <minecraft:glowstone_dust>;
 var LapisB = <minecraft:lapis_block>;
 var CircuitB = <ore:circuitBasic>;
-var HoneyD = <forestry:honeyDrop>;
 var Paper = <minecraft:paper>;
 
 //################################################
@@ -274,37 +274,3 @@ recipes.addShaped(<immersiveengineering:treatedWood>,
     [<ore:plankWood>, <railcraft:fluid_bottle_creosote> ,<ore:plankWood>],
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 	
-//#############################################################################################	
-//Forestry stamps
-recipes.remove(<forestry:stamps>);
-recipes.addShaped(<forestry:stamps>*16,
-    [[Stone,Stone,Stone],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-	recipes.remove(<forestry:stamps:1>);
-recipes.addShaped(<forestry:stamps:1>*16,
-    [[<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-	recipes.remove(<forestry:stamps:2>);
-recipes.addShaped(<forestry:stamps:2>*16,
-    [[Copper,Copper,Copper],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-recipes.remove(<forestry:stamps:3>);
-recipes.addShaped(<forestry:stamps:3>*16,
-    [[Iron,Iron,Iron],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-recipes.addShaped(<forestry:stamps:4>*16,
-    [[Gold,Gold,Gold],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-recipes.addShaped(<forestry:stamps:5>*64,
-    [[Diamond,Diamond,Diamond],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
-recipes.addShaped(<forestry:stamps:6>*64,
-    [[<draconicevolution:nugget>,<draconicevolution:nugget>,<draconicevolution:nugget>],
-    [Paper, Paper ,Paper],
-    [HoneyD,HoneyD,HoneyD]]);
