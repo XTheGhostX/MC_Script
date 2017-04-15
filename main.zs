@@ -29,9 +29,6 @@ var Steel = <ore:ingotSteel>;
 var SteelN = <ore:nuggetSteel>;
 var SteelB = <ore:blockSteel>;
 
-var Emerald = <minecraft:emerald>;
-var Diamond = <minecraft:diamond>;
-
 var Stone = <ore:stone>;
 var Enderium = <ore:ingotEnderium>;
 var NetherStar =<minecraft:nether_star>;
@@ -42,11 +39,12 @@ var Leather = <minecraft:leather>;
 var Wool = <minecraft:wool:*>;
 var ClayS = <minecraft:stained_hardened_clay:*>;
 var ClayH = <minecraft:hardened_clay:*>;
+var Diamond = <minecraft:diamond>;
 var TNT = <minecraft:tnt>;
+var Emerald = <minecraft:emerald>;
 var Glow = <minecraft:glowstone_dust>;
 var LapisB = <minecraft:lapis_block>;
 var CircuitB = <ore:circuitBasic>;
-var Paper = <minecraft:paper>;
 
 //################################################
 //health changes 
@@ -59,7 +57,7 @@ recipes.addShaped(<roughtweaks:salve>,
 recipes.remove(<roughtweaks:plaster>);
 recipes.addShaped(<roughtweaks:plaster>,
     [[<minecraft:string>, ClayB, <minecraft:string>],
-    [Paper, Wool, Paper],
+    [<minecraft:paper>, Wool, <minecraft:paper>],
     [<minecraft:string>, ClayB, <minecraft:string>]]);
 	
 recipes.remove(<roughtweaks:bandage>);
@@ -255,7 +253,8 @@ recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
     [[RedStoneB,LapisB,RedStoneB],
     [null, <air_support:circuit_board> ,null],
     [<ore:gearGold>,<opencomputers:material:17>,<ore:gearGold>]]);
-	
+
+
 //#############################################################################################	
 //ie fix
 recipes.addShaped(<immersiveengineering:treatedWood>,
@@ -268,3 +267,28 @@ recipes.addShaped(<immersiveengineering:treatedWood>,
     [<ore:plankWood>, <railcraft:fluid_bottle_creosote> ,<ore:plankWood>],
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 	
+//hot fix
+recipes.remove(<opencomputers:material:30>);	
+
+recipes.addShaped(<draconicevolution:dragon_heart>,
+    [[<draconicevolution:wyvern_core>,<draconicevolution:draconium_block>,<draconicevolution:wyvern_core>],
+    [<thermalfoundation:material:295>, <xreliquary:mob_ingredient:11> ,<thermalfoundation:material:295>],
+    [null,<draconicevolution:draconium_block>,null]]);
+	
+recipes.addShaped(<draconicevolution:dragon_heart>,
+    [[<draconicevolution:wyvern_core>,<draconicevolution:draconium_block>,<draconicevolution:wyvern_core>],
+    [<thermalfoundation:storage_alloy:7>, <xreliquary:mob_ingredient:6> ,<thermalfoundation:storage_alloy:7>],
+    [null,<draconicevolution:draconium_block>,null]]);
+	
+recipes.addShaped(<draconicevolution:dragon_heart>*2,
+    [[<draconicevolution:wyvern_core>,<draconicevolution:draconium_block>,<draconicevolution:wyvern_core>],
+    [<thermalfoundation:storage_alloy:7>, <cyberware:bodyPart:2> ,<thermalfoundation:storage_alloy:7>],
+    [null,<draconicevolution:draconium_block>,null]]);
+		
+recipes.addShapeless(<cyberware:cyberlimbs:0> , [<cyberware:cyberlimbs:1>]);
+recipes.addShapeless(<cyberware:cyberlimbs:1> , [<cyberware:cyberlimbs:0>]);
+recipes.addShapeless(<cyberware:cyberlimbs:3> , [<cyberware:cyberlimbs:2>]);
+recipes.addShapeless(<cyberware:cyberlimbs:3> , [<cyberware:cyberlimbs:2>]);
+
+
+
