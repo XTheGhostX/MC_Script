@@ -255,7 +255,11 @@ recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
     [[RedStoneB,LapisB,RedStoneB],
     [null, <air_support:circuit_board> ,null],
     [<ore:gearGold>,<opencomputers:material:17>,<ore:gearGold>]]);
-	
+
+//#############################################################################################	
+//Dynamite fix
+recipes.remove(<ic2:dynamite>);
+recipes.addShapeless(<ic2:dynamite> , [<minecraft:tnt>,<minecraft:tnt>,<minecraft:string>]);
 //#############################################################################################	
 //ie fix
 recipes.addShaped(<immersiveengineering:treatedWood>,
