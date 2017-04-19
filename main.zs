@@ -254,7 +254,14 @@ recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
     [null, <air_support:circuit_board> ,null],
     [<ore:gearGold>,<opencomputers:material:17>,<ore:gearGold>]]);
 
+<<<<<<< HEAD
 
+=======
+//#############################################################################################	
+//Dynamite fix
+recipes.remove(<ic2:dynamite>);
+recipes.addShapeless(<ic2:dynamite> , [<minecraft:tnt>,<minecraft:tnt>,<minecraft:string>]);
+>>>>>>> origin/master
 //#############################################################################################	
 //ie fix
 recipes.addShaped(<immersiveengineering:treatedWood>,
