@@ -291,11 +291,6 @@ recipes.addShaped(<draconicevolution:dragon_heart>*2,
     [[<draconicevolution:wyvern_core>,<draconicevolution:draconium_block>,<draconicevolution:wyvern_core>],
     [<thermalfoundation:storage_alloy:7>, <cyberware:bodyPart:2> ,<thermalfoundation:storage_alloy:7>],
     [null,<draconicevolution:draconium_block>,null]]);
-		
-recipes.addShapeless(<cyberware:cyberlimbs:0> , [<cyberware:cyberlimbs:1>]);
-recipes.addShapeless(<cyberware:cyberlimbs:1> , [<cyberware:cyberlimbs:0>]);
-recipes.addShapeless(<cyberware:cyberlimbs:3> , [<cyberware:cyberlimbs:2>]);
-recipes.addShapeless(<cyberware:cyberlimbs:3> , [<cyberware:cyberlimbs:2>]);
 
 
 
