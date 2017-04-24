@@ -289,4 +289,5 @@ recipes.addShaped(<draconicevolution:dragon_heart>*2,
     [null,<draconicevolution:draconium_block>,null]]);
 
 
-
+//Creative RFtools screen
+recipes.addShapeless(<rftools:creative_screen>, [<rftools:screen>,<ic2:misc_resource:4>,<vc:modules/airship_module:5>]);
