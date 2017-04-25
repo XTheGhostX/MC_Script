@@ -259,6 +259,10 @@ recipes.addShaped(<air_support:utility_crate_drop_remote>*2,
 recipes.remove(<ic2:dynamite>);
 recipes.addShapeless(<ic2:dynamite> , [<minecraft:tnt>,<minecraft:tnt>,<minecraft:string>]);
 //#############################################################################################	
+//Less letters
+recipes.remove(<randomthings:enderLetter>);
+recipes.remove(<randomthings:enderMailbox>);
+
 //ie fix
 recipes.addShaped(<immersiveengineering:treatedWood>,
     [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
