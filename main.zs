@@ -123,3 +123,14 @@ recipes.addShaped(<libvulpes:ore0:8>*4,
     [[<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>],
     [<ore:CoalCoke>, <minecraft:iron_block> ,<ore:CoalCoke>],
     [<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>]]);
+//Flux network nerf(Requested by Boom)
+recipes.remove(<fluxnetworks:FluxPoint>);
+recipes.addShaped(<fluxnetworks:FluxPoint>,
+    [[null,<fluxnetworks:FluxCore>,null],
+    [<fluxnetworks:FluxCore>, <draconicevolution:chaos_shard:2> ,<fluxnetworks:FluxCore>],
+    [null,<fluxnetworks:FluxCore>,null]]);
+recipes.remove(<fluxnetworks:FluxPlug>);
+recipes.addShaped(<fluxnetworks:FluxPlug>,
+    [[null,<fluxnetworks:FluxCore>,null],
+    [<fluxnetworks:FluxCore>, <draconicevolution:chaos_shard:1> ,<fluxnetworks:FluxCore>],
+    [null,<fluxnetworks:FluxCore>,null]]);
