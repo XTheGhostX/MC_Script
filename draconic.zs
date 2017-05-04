@@ -35,3 +35,7 @@ recipes.addShaped(<draconicevolution:magnet>,
     [[<minecraft:redstone>, null, <minecraft:redstone>],
     [<draconicevolution:draconium_ingot>, null, <draconicevolution:draconium_ingot>],
     [<minecraft:iron_ingot>, <botania:magnetRingGreater>, <minecraft:iron_ingot>]]);
+//Chaos shards
+recipes.addShapeless(<draconicevolution:chaos_shard:1> * 9, [<draconicevolution:chaos_shard:0>]);
+recipes.addShapeless(<draconicevolution:chaos_shard:2> * 9, [<draconicevolution:chaos_shard:1>]);
+recipes.addShapeless(<draconicevolution:chaos_shard:3> * 9, [<draconicevolution:chaos_shard:2>]);
