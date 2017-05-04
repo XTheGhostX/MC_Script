@@ -2,6 +2,9 @@ var Iron = <minecraft:iron_ingot>;
 var Gold = <minecraft:gold_ingot>;
 var Silver = <ore:ingotSilver>;
 var Steel = <ore:ingotSteel>;
+
+<ore:CoalCoke>.add(<immersiveengineering:material:6>);
+<ore:CoalCoke>.add(<railcraft:fuel_coke>);
 //###################################################
 //storage system changes
 recipes.remove(<enderio:itemFunctionUpgrade>);
@@ -111,3 +114,12 @@ recipes.addShaped(<immersiveengineering:treatedWood>,
 	
 //Creative RFtools screen
 recipes.addShapeless(<rftools:creative_screen>, [<rftools:screen>,<ic2:misc_resource:4>,<vc:modules/airship_module:5>]);
+//Rocket ores
+recipes.addShaped(<libvulpes:ore0>,
+    [[<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>],
+    [<ore:CoalCoke>, <minecraft:diamond> ,<ore:CoalCoke>],
+    [<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>]]);
+recipes.addShaped(<libvulpes:ore0:8>*4,
+    [[<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>],
+    [<ore:CoalCoke>, <minecraft:iron_block> ,<ore:CoalCoke>],
+    [<minecraft:coal_block>,<ore:CoalCoke>,<minecraft:coal_block>]]);
