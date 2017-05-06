@@ -135,4 +135,4 @@ recipes.addShaped(<fluxnetworks:FluxPlug>,
     [<fluxnetworks:FluxCore>, <draconicevolution:chaos_shard:1> ,<fluxnetworks:FluxCore>],
     [null,<fluxnetworks:FluxCore>,null]]);
 //TMP basalt Fix
-furnace.addRecipe(<ic2:resource:0>, <chisel:basalt>);
+furnace.addRecipe(<chisel:basalt>, <ic2:resource:0>);
