@@ -8,6 +8,7 @@ recipes.remove(<ic2:bronze_pickaxe>);
 recipes.remove(<botania:glassPick>);
 recipes.remove(<randomthings:enderLetter>);
 recipes.remove(<randomthings:enderMailbox>);
+recipes.remove(<gendustry:Mutatron>);
 //IE turrets removed due to lag
 recipes.remove(<immersiveengineering:metalDevice1:10>);
 recipes.remove(<immersiveengineering:metalDevice1:11>);
