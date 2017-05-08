@@ -136,3 +136,8 @@ recipes.addShaped(<fluxnetworks:FluxPlug>,
     [null,<fluxnetworks:FluxCore>,null]]);
 //TMP basalt Fix
 furnace.addRecipe(<chisel:basalt>, <ic2:resource:0>);
+//Notch Apple
+recipes.addShaped(<minecraft:golden_apple:1>,
+    [[<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>],
+    [<minecraft:gold_block>, <minecraft:apple> ,<minecraft:gold_block>],
+    [<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>]]);
