@@ -141,3 +141,10 @@ recipes.addShaped(<minecraft:golden_apple:1>,
     [[<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>],
     [<minecraft:gold_block>, <minecraft:apple> ,<minecraft:gold_block>],
     [<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>]]);
+
+//Folder fix
+recipes.remove(<openprinter:folder>);
+recipes.addShaped(<openprinter:folder>,
+    [[null,null,null],
+    [<minecraft:paper>, null ,<minecraft:paper>],
+    [<minecraft:paper>,<minecraft:leather>,<minecraft:paper>]]);
