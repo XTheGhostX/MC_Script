@@ -5,6 +5,8 @@ var Steel = <ore:ingotSteel>;
 
 <ore:CoalCoke>.add(<immersiveengineering:material:6>);
 <ore:CoalCoke>.add(<railcraft:fuel_coke>);
+<ore:FluixCrystal>.add(<appliedenergistics2:material:7>);
+<ore:FluixCrystal>.add(<appliedenergistics2:material:12>);
 //###################################################
 //storage system changes
 recipes.remove(<enderio:itemFunctionUpgrade>);
@@ -148,3 +150,9 @@ recipes.addShaped(<openprinter:folder>,
     [[null,null,null],
     [<minecraft:paper>, null ,<minecraft:paper>],
     [<minecraft:paper>,<minecraft:leather>,<minecraft:paper>]]);
+	
+//P2P tunnel fix
+recipes.addShaped(<appliedenergistics2:part:467>,
+    [[null,<minecraft:iron_ingot>,null],
+    [<minecraft:iron_ingot>, <appliedenergistics2:material:24> ,<minecraft:iron_ingot>],
+    [<ore:FluixCrystal>,<ore:FluixCrystal>,<ore:FluixCrystal>]]);
