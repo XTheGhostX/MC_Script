@@ -156,3 +156,9 @@ recipes.addShaped(<appliedenergistics2:part:467>,
     [[null,<minecraft:iron_ingot>,null],
     [<minecraft:iron_ingot>, <appliedenergistics2:material:24> ,<minecraft:iron_ingot>],
     [<ore:FluixCrystal>,<ore:FluixCrystal>,<ore:FluixCrystal>]]);
+
+//Infinate storage upgrade
+recipes.addShaped(<storagedrawers:upgradeCreative>,
+    [[<appliedenergistics2:material:34>,<appliedenergistics2:material:34>,<appliedenergistics2:material:34>],
+    [<appliedenergistics2:material:34>, <appliedenergistics2:material:47> ,<appliedenergistics2:material:34>],
+    [<appliedenergistics2:material:34>,<appliedenergistics2:material:34>,<appliedenergistics2:material:34>]]);
