@@ -1,5 +1,5 @@
 var Resin = <ic2:misc_resource:4>;
-var HoneyD = <forestry:honeyDrop>;
+var HoneyD = <forestry:honey_drop>;
 var Paper = <minecraft:paper>;
 var Diamond = <minecraft:diamond>;
 var Stone = <ore:stone>;
