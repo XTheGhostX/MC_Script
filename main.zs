@@ -9,8 +9,8 @@ var Steel = <ore:ingotSteel>;
 recipes.remove(<opencomputers:component:18>);
 //recipes.addShapeless(<opencomputers:component:18> , [<appliedenergistics2:material:47>, <opencomputers:card:12>, <opencomputers:component:2>]);
 
-recipes.remove(<opencomputers:material:30>);	
-recipes.addShapeless(<opencomputers:material:30>*12, [<minecraft:diamond>,<minecraft:diamond>]);
+recipes.remove(<opencomputers:material:29>);
+recipes.addShapeless(<opencomputers:material:29>*12, [<minecraft:diamond>,<minecraft:diamond>]);
 //#############################################################################################	
 	
 //Creative RFtools screen
