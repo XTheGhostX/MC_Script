@@ -4,10 +4,19 @@ var Silver = <ore:ingotSilver>;
 var Steel = <ore:ingotSteel>;
 //============================================================
 recipes.addShaped(<buildcraftfactory:chute>, 
-	[[<ore:stoneToolMaterial>, null, <ore:stoneToolMaterial>], 
+	[[<ore:stoneToolMaterial>, <extrautils2:minichest>, <ore:stoneToolMaterial>], 
 	[<ore:stoneToolMaterial>, <ore:gearStone>, <ore:stoneToolMaterial>], 
 	[null, <minecraft:cobblestone>, null]]);
 
+recipes.addShaped(<minecraft:wooden_pickaxe:2>, 
+	[[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], 
+	[null, <ore:stickWood>, null], 
+	[null, <ore:stickWood>, null]]);
+	
+recipes.addShaped(<actuallyadditions:item_void_bag>, 
+	[[null, <buildcrafttransport:pipe_void_item>, <extrautils2:minichest>], 
+	[null, <ore:stickWood>, <buildcrafttransport:pipe_obsidian_item>], 
+	[<ore:stickWood>, null, null]]);
 
 //############################################################
 

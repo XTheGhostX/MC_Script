@@ -118,3 +118,4 @@ recipes.remove(<actuallyadditions:item_shovel_emerald>);
 recipes.remove(<actuallyadditions:item_axe_emerald>);
 recipes.remove(<actuallyadditions:item_sword_emerald>);
 recipes.remove(<actuallyadditions:item_pickaxe_emerald>);
+recipes.remove(<actuallyadditions:block_furnace_solar>);
