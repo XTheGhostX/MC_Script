@@ -2,6 +2,12 @@ var Iron = <minecraft:iron_ingot>;
 var Gold = <minecraft:gold_ingot>;
 var Silver = <ore:ingotSilver>;
 var Steel = <ore:ingotSteel>;
+//============================================================
+recipes.addShaped(<buildcraftfactory:chute>, 
+	[[<ore:stoneToolMaterial>, null, <ore:stoneToolMaterial>], 
+	[<ore:stoneToolMaterial>, <ore:gearStone>, <ore:stoneToolMaterial>], 
+	[null, <minecraft:cobblestone>, null]]);
+
 
 //############################################################
 
