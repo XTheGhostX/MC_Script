@@ -9,7 +9,10 @@ recipes.remove(<draconicevolution:dislocator>);
 recipes.remove(<immersiveengineering:metal_device1:10>);
 recipes.remove(<immersiveengineering:metal_device1:11>);
 
-
+recipes.remove(<botania:terrapick>);
+recipes.remove(<xreliquary:rending_gale>);
+recipes.remove(<xreliquary:ender_staff>);
+recipes.remove(<tconstruct:slimesling>);
 
 //-actuallyadditions
 recipes.remove(<actuallyadditions:block_tiny_torch>);
