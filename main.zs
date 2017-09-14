@@ -2,7 +2,17 @@ var Iron = <minecraft:iron_ingot>;
 var Gold = <minecraft:gold_ingot>;
 var Silver = <ore:ingotSilver>;
 var Steel = <ore:ingotSteel>;
+
 //============================================================
+ 
+recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
+
+
+recipes.addShaped(<primal:torch_wood> * 4, [[<ore:clumpFuel>], [<ore:stickWood>]]);
+
+recipes.remove(<primal:torch_wood>);
+recipes.addShaped(<primal:torch_wood> * 4, [[<ore:clumpFuel>], [<ore:stickWood>]]);
+
 recipes.addShaped(<buildcraftfactory:chute>, 
 	[[<ore:stoneToolMaterial>, <extrautils2:minichest>, <ore:stoneToolMaterial>], 
 	[<ore:stoneToolMaterial>, <ore:gearStone>, <ore:stoneToolMaterial>], 
@@ -19,13 +29,45 @@ recipes.addShaped(<actuallyadditions:item_void_bag>,
 	[<ore:stickWood>, null, null]]);
 
 //############################################################
+//Cyberware
 
-//ToDo
-recipes.remove(<opencomputers:component:18>);
-//recipes.addShapeless(<opencomputers:component:18> , [<appliedenergistics2:material:47>, <opencomputers:card:12>, <opencomputers:component:2>]);
+recipes.addShaped(<cyberware:surgery>,
+    [[<ore:blockSteel>, <ic2:upgrade>, <ore:blockSteel>],
+    [<ic2:upgrade>, <ore:oc:cpu3>, <ic2:upgrade>],
+    [<ore:blockSteel>, <ic2:mining_laser:*>, <ore:blockSteel>]]);	
+
+recipes.addShapeless(<cyberware:neuropozyne>, [<rftools:syringe>, <ore:oc:materialAcid>, <avaritia:resource:2>]);
+
+recipes.addShapeless(<cyberware:katana>, [<minecraft:iron_sword>]);
+
+//############################################################
+recipes.addShaped(<stevescarts:cartmodule:76>, 
+	[[<ore:ingotInfinity>, null, <ore:ingotInfinity>], 
+	[<ore:ingotInfinity>, <ore:ingotInfinity>, <ore:ingotInfinity>], 
+	[<avaritia:resource:5>, null, <avaritia:resource:5>]]);
+
+recipes.addShaped(<stevescarts:upgrade:14>, 
+	[[<ore:ingotCosmicNeutronium>, <stevescarts:upgrade:5>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <avaritia:resource:6>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <stevescarts:upgrade:6>, <avaritia:resource:4>]]);
+
+recipes.addShaped(<stevescarts:cartmodule:61>, 
+	[[<avaritia:resource:4>, <thermalexpansion:florb>.withTag({Fluid:"ic2coolant"}), <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <avaritia:resource:5>, <ore:ingotCosmicNeutronium>], 
+	[<advancedrocketry:advrocketmotor>, <galacticraftplanets:item_basic_asteroids:1>, <advancedrocketry:advrocketmotor>]]);
+
+
+recipes.addShapeless(<storagedrawers:upgradeCreative> , [, <storagedrawers:upgrade_template>, <industrialforegoing:black_hole_unit>]);
+
+recipes.addShaped(<opencomputers:component:18>,
+    [[<avaritia:resource:4>,<opencomputers:card:3>,<avaritia:resource:4>],
+    [<avaritia:resource:4>, <ic2:misc_resource:4> ,<avaritia:resource:4>],
+    [<avaritia:resource:4>,<opencomputers:component:2>,<avaritia:resource:4>]]);
+
 
 recipes.remove(<opencomputers:material:29>);
 recipes.addShapeless(<opencomputers:material:29>*12, [<minecraft:diamond>,<minecraft:diamond>]);
+
 //#############################################################################################	
 	
 //Creative RFtools screen
@@ -60,11 +102,3 @@ furnace.addRecipe(<chisel:basalt>, <ic2:resource:0>);
 recipes.addShaped(<minecraft:golden_apple:1>,
     [[<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>],
     [<minecraft:gold_block>, <minecraft:apple> ,<minecraft:gold_block>],
-    [<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>]]);
-
-//ToDo
-//Infinate storage upgrade
-//recipes.addShaped(<storagedrawers:upgradeCreative>,
-//    [[<appliedenergistics2:material:34>,<appliedenergistics2:material:34>,<appliedenergistics2:material:34>],
-//    [<appliedenergistics2:material:34>, <appliedenergistics2:material:47> ,<appliedenergistics2:material:34>],
-//    [<appliedenergistics2:material:34>,<appliedenergistics2:material:34>,<appliedenergistics2:material:34>]]);
