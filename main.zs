@@ -27,6 +27,41 @@ recipes.addShaped(<actuallyadditions:item_void_bag>,
 	[[null, <buildcrafttransport:pipe_void_item>, <extrautils2:minichest>], 
 	[null, <ore:stickWood>, <buildcrafttransport:pipe_obsidian_item>], 
 	[<ore:stickWood>, null, null]]);
+	
+	
+recipes.remove(<randomthings:redstoneremote>);
+recipes.addShaped(<randomthings:redstoneremote>, 
+	[[null, <draconicevolution:energy_crystal:6>, null], 
+	[null, <ore:compressed5xNetherrack>, null], 
+	[<ore:obsidian>, <ore:obsidian>, <minecraft:obsidian>]]);
+
+recipes.remove(<cyberware:surgery_chamber>);
+recipes.addShaped(<cyberware:surgery_chamber>, 
+	[[<ore:blockMetal>, <ore:blockMetal>, <ore:blockMetal>], 
+	[<stevescarts:cartmodule:9>, <ic2:reinforced_door>, <ic2:mining_laser:26>], 
+	[<ore:blockMetal>, <ore:blockMetal>, <ore:blockMetal>]]);
+	
+recipes.remove(<actuallyadditions:block_giant_chest_large>);
+recipes.remove(<actuallyadditions:block_giant_chest_medium>);
+recipes.remove(<actuallyadditions:block_giant_chest>);	
+recipes.addShaped(<actuallyadditions:block_giant_chest_large>, 
+	[[<ore:chest>, <ore:chest>, <ore:chest>], 
+	[<ore:chest>, <actuallyadditions:block_giant_chest_medium>, <ore:chest>], 
+	[<ore:chest>, <ore:chest>, <ore:chest>]]);
+recipes.addShaped(<actuallyadditions:block_giant_chest_medium>, 
+	[[<ore:chest>, <ore:chest>, <ore:chest>], 
+	[<ore:chest>, <actuallyadditions:block_giant_chest>, <ore:chest>], 
+	[<ore:chest>, <ore:chest>, <ore:chest>]]);
+recipes.addShaped(<actuallyadditions:block_giant_chest>, 
+	[[<ore:chest>, <ore:chest>, <ore:chest>], 
+	[<ore:chest>, <actuallyadditions:block_misc:4>, <ore:chest>], 
+	[<ore:chest>, <ore:chest>, <ore:chest>]]);
+
+recipes.remove(<actuallyadditions:block_xp_solidifier>);
+recipes.addShaped(<actuallyadditions:block_xp_solidifier>, 
+	[[<minecraft:iron_bars>, <actuallyadditions:item_solidified_experience>, <minecraft:iron_bars>], 
+	[<minecraft:iron_bars>, <ore:bEnderAirBottle>, <minecraft:iron_bars>], 
+	[<minecraft:iron_bars>, <actuallyadditions:item_solidified_experience>, <minecraft:iron_bars>]]);
 
 //############################################################
 //Cyberware
