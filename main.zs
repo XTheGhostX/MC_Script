@@ -2,9 +2,10 @@ var Iron = <minecraft:iron_ingot>;
 var Gold = <minecraft:gold_ingot>;
 var Silver = <ore:ingotSilver>;
 var Steel = <ore:ingotSteel>;
+<ore:leather>.add (<primal:pigman_leather>);
 
 //============================================================
- 
+
 recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
 
 
@@ -137,3 +138,20 @@ furnace.addRecipe(<chisel:basalt>, <ic2:resource:0>);
 recipes.addShaped(<minecraft:golden_apple:1>,
     [[<minecraft:gold_block>,<minecraft:gold_block>,<minecraft:gold_block>],
     [<minecraft:gold_block>, <minecraft:apple> ,<minecraft:gold_block>],
+
+//Endertransport	
+recipes.remove(<multistorage:ender_bag:2>);
+recipes.remove(<endertanks:blockendertank>);
+recipes.remove(<endertanks:ender_bucket>);
+recipes.addShaped(<multistorage:ender_bag:2>,
+	[[<ore:rodBlaze>, null, <ore:rodBlaze>],
+	[<ore:leather>, <avaritia:endest_pearl>,<ore:leather>],
+	[null,	<ore:leather>,	null]]);
+recipes.addShaped(<endertanks:blockendertank>,
+	[[<minecraft:blaze_rod>, <galacticraftcore:fluid_tank>, <ore:rodBlaze>],
+	[<ore:obsidian>, <endertanks:ender_bucket>, <ore:obsidian>],
+	[<minecraft:blaze_rod>, <galacticraftcore:fluid_tank>, <minecraft:blaze_rod>]]);
+recipes.addShaped(<endertanks:ender_bucket>,
+	[[<ore:rodBlaze>, <galacticraftcore:fluid_tank>, <ore:rodBlaze>],
+	[<ore:obsidian>, <galacticraftcore:fluid_tank>, <ore:obsidian>],
+	[<minecraft:blaze_rod>, <avaritia:endest_pearl>, <minecraft:blaze_rod>]]);
