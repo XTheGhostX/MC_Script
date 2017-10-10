@@ -155,3 +155,7 @@ recipes.addShaped(<endertanks:ender_bucket>,
 	[[<ore:rodBlaze>, <galacticraftcore:fluid_tank>, <ore:rodBlaze>],
 	[<ore:obsidian>, <galacticraftcore:fluid_tank>, <ore:obsidian>],
 	[<minecraft:blaze_rod>, <avaritia:endest_pearl>, <minecraft:blaze_rod>]]);
+
+//AngelheartVial
+recipes.remove(<xreliquary:angelheart_vial>);
+recipes.addShaped(<xreliquary:angelheart_vial>*2, [[<botania:elfglasspane>, <minecraft:totem_of_undying>, <botania:elfglasspane>], [<botania:elfglasspane>, <xreliquary:witherless_rose>, <botania:elfglasspane>], [<botania:elfglasspane>, <xreliquary:emperor_chalice>.reuse(), <botania:elfglasspane>]]);
