@@ -155,3 +155,24 @@ recipes.addShaped(<endertanks:ender_bucket>,
 	[[<ore:rodBlaze>, <galacticraftcore:fluid_tank>, <ore:rodBlaze>],
 	[<ore:obsidian>, <galacticraftcore:fluid_tank>, <ore:obsidian>],
 	[<minecraft:blaze_rod>, <avaritia:endest_pearl>, <minecraft:blaze_rod>]]);
+
+//AngelheartVial
+recipes.remove(<xreliquary:angelheart_vial>);
+recipes.addShaped(<xreliquary:angelheart_vial>*2,
+	[[<botania:elfglasspane>, <minecraft:totem_of_undying>, <botania:elfglasspane>],
+	[<botania:elfglasspane>, <xreliquary:witherless_rose>, <botania:elfglasspane>],
+	[<botania:elfglasspane>, <xreliquary:emperor_chalice>.reuse(), <botania:elfglasspane>]]);
+
+//Batwings
+recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
+recipes.addShaped(<actuallyadditions:item_wings_of_the_bats>,
+	[[<xreliquary:mob_ingredient:5>, <embers:wildfire_core>, <xreliquary:mob_ingredient:5>],
+	[<xreliquary:mob_ingredient:5>, <actuallyadditions:item_misc:19>, <xreliquary:mob_ingredient:5>],
+	[<xreliquary:mob_ingredient:5>, <embers:wildfire_core>, <xreliquary:mob_ingredient:5>]]);
+	
+//BlackHoleUnit
+recipes.remove(<industrialforegoing:black_hole_unit>);
+recipes.addShaped(<industrialforegoing:black_hole_unit>,
+	[[<avaritia:singularity:8>, <avaritia:singularity:3>, <avaritia:singularity:8>],
+	[<avaritia:singularity:1>, <avaritia:endest_pearl>, <avaritia:singularity:1>],
+	[<avaritia:resource>, <avaritia:block_resource>, <avaritia:resource>]]);
